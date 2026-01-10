@@ -13,6 +13,9 @@
     font-family: robotto;
     src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
+
+ 
+/* navbar start */
 .home{
     color: var(--purplecolor) !important;
     font-family: robotto !important;
@@ -34,4 +37,29 @@
     font-size: 21.33px !important;
     font-weight: 400 !important;
     border: 1px solid var(--purplecolor);
+    
+}
+
+/* navbar end */
+
+
+
+/* hero section start */
+
+.hero{
+    background-color: #F5FCFF;
+}
+
+.heading{
+    font-family: robotto;
+
+}
+.hero-btn{
+    background-color: var(--purplecolor);
+    color: white;
+}
+
+
+.design{
+    color: var(--purplecolor);
 }

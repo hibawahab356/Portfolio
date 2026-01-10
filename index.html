@@ -1,48 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-      
-    
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Navbar start -->
 
-<nav class="navbar navbar-expand-lg ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="./images/Logo.svg" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
-      <ul class="navbar-nav  mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active home" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link list" href="#">Portfolio</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link list" href="#">About</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link list" href="#">Testimonials</a>
-        </li>
-       
-      </ul>
-       
-        <button class="btn btn-purple" type="button">Contact us</button>
-      
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/Logo.svg" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-evenly gap-5"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active home" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link list" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link list" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link list" href="#">Testimonials</a>
+            </li>
+          </ul>
 
-     <!-- Navbar end -->
+          <button class="btn btn-purple" type="button">Contact us</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Hero section start -->
+
+    <div class="container-fluid hero col-xxl-8 px-5 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-12 col-lg-6">
+          <img
+            src="./images/hero img.svg"
+            class="d-block mx-lg-auto img-fluid w-100"
+            alt="hero img"
+            width="700"
+            height="500"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h5>Hey, I am John</h5>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 heading">
+            I create <span class="design">product design</span> <br>and brand experience
+          </h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn hero-btn btn-lg px-4 me-md-2">
+              Get in touch
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- hero section end -->
 
     <script src="bootstrap.js"></script>
-</body>
+  </body>
 </html>
