@@ -4,27 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ @font-face {
+    font-family: robotto;
+    src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
 
 :root{
     --purplecolor: #5E3BEE;
-}
-@font-face {
-    font-family: robotto;
-    src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+    --robotto: robotto;
 }
 
  
 /* navbar start */
 .home{
     color: var(--purplecolor) !important;
-    font-family: robotto !important;
+    font-family: var(--robotto) !important;
     font-weight: 400 !important;
     font-size: 21.33px !important;
 }
 
 .list{
-    font-family: robotto !important;
+    font-family: var(--robotto) !important;
     color: #1C1E53 !important;
     font-weight: 400 !important;
     font-size: 21.33px !important;
@@ -32,7 +32,7 @@
 
 .btn-purple{
     color: var(--purplecolor);
-     font-family: robotto !important;
+     font-family: var(--robotto) !important;
     font-weight: 400 !important;
     font-size: 21.33px !important;
     font-weight: 400 !important;
@@ -51,7 +51,7 @@
 }
 
 .heading{
-    font-family: robotto;
+    font-family: var(--robotto) !important;
 
 }
 .hero-btn{
@@ -62,4 +62,30 @@
 
 .design{
     color: var(--purplecolor);
+}
+
+
+/* hero section end */
+
+
+/* my expertise start */
+
+.cards{
+   background-color: #F5FCFF;
+   border: 20px solid #F5FCFF;
+   border-radius: 30px !important;
+   width: 20% !important;
+  
+}
+.content{
+    font-family: var(--robotto) !important;
+    font-weight: 700 !important;
+    font-size: 25px !important;
+    font-style: bold !important;
+}
+.para{
+    font-family: var(--robotto) !important;
+}
+.cardimg{
+    width: 37% !important;
 }
