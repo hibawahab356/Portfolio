@@ -70,22 +70,88 @@
 
 /* my expertise start */
 
-.cards{
-   background-color: #F5FCFF;
-   border: 20px solid #F5FCFF;
-   border-radius: 30px !important;
-   width: 20% !important;
+.chase{
+    width: 80%;
+         
+}
+
+
+
+.cardsect{
+    width:100% ;
+ background-color: #F5FCFF;
+
+    
+}
+
+.arrow{
+     font-family: robotto!important;
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    
+}
+
+/* my expertise end */
+
+
+/* About me section start  */
+
+
+.lines{
+    color:#1C1E53 ;
+}
   
+
+
+/* About me section end */
+
+
+
+  /* my project start */
+
+.chat{
+    width: 100%;
 }
-.content{
-    font-family: var(--robotto) !important;
-    font-weight: 700 !important;
-    font-size: 25px !important;
-    font-style: bold !important;
+
+.image{
+   width:  100%;
 }
-.para{
-    font-family: var(--robotto) !important;
+
+.imgdiv{
+    width: 100%;
 }
-.cardimg{
-    width: 37% !important;
+
+
+.card-body button{
+    padding: 15px;
+    outline: none !important;
+    border: none !important;
+    border-bottom: 3px solid var(--purplecolor) !important;
+    
+    background: transparent;
 }
+
+
+ /* my project end */
+
+
+ /* tetimonials start */
+
+.face{
+    border-radius: 50%;
+    width: 23%;
+}
+
+
+.face img{
+    width: 100%;
+}
+
+.act{
+    padding-left: 22px;
+    padding-top: 3px;
+}
+
+
+
+ /* tetimonials end */
