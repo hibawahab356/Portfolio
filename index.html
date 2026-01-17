@@ -382,7 +382,13 @@
     <!-- testimonials section end -->
 
     <!-- forms start -->
+     
     <div class="container-fluid px-5 py-5">
+      <div class="container-fluid px-5 py-5 d-flex flex-column justify-content-center">
+        <h6>Get in touch</h6>
+      <h2>Contact me</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
       <form>
         <!-- 2 column grid layout with text inputs for the first and last names -->
         <div class="row mb-4">
@@ -437,7 +443,7 @@
         </div>
 
         <!-- Checkbox -->
-        <div class="form-check d-flex justify-content-center mb-4">
+        <div class="form-check d-flex justify-content-start mb-4">
          
           <input
             class="form-check-input me-2"
@@ -455,18 +461,65 @@
         </div>
 
         <!-- Submit button -->
-        <button 
+       <div class="justify-content-center">
+         <button 
           data-mdb-ripple-init
           type="button"
           class="btn btn-primary btn-block mb-4 justify-content-center"
         >
           Submit
         </button>
+       </div>
       </form>
     </div>
 
     <!-- forms end -->
 
+
+
+      <!-- Footer section start -->
+
+    <div class="container-fluid px-5 py-5">
+      <footer
+        class="d-flex flex-wrap justify-content-lg-between align-items-center px-3 py-3 my-4 border-top"
+      >
+        <div class="d-flex ">
+          <img src="./images/Logo.svg" alt="" />
+        </div>
+        <!-- <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          aria-label="Bootstrap"
+        >
+        </a> -->
+        <ul class="nav col-md-4 justify-content-center nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-body-secondary"
+              >Testimonials</a
+            >
+          </li>
+        </ul>
+        <div class="justify-content-end ">
+          <span><img src="./images/Facebook.svg" alt="" class="fb" /></span>
+          <span><img src="./images/Instagram.png" alt="" class="fb" /></span>
+          <span><img src="./images/Twitter.png" alt="" class="fb" /></span>
+          <span><img src="./images/LinkedIn.png" alt="" class="fb" /></span>
+        </div>
+ 
+      </footer>
+</div>
     <script src="bootstrap.js"></script>
   </body>
 </html>
